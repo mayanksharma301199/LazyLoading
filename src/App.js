@@ -39,8 +39,8 @@ const App = () => {
                 <div className = {"card mx-auto h-100 w-100"} style = {{width: "18rem"}}>
                   <img className = {"card-img-top"} src = {`https://avatars.dicebear.com/api/avataaars/${image.id}.svg`} alt = {"Not found"} />
                   <div className = {"card-body"}>
-                      <h5 className = {"card-title"}>{image.userId}</h5>
-                      <p className = {"card-text"}>{image.id}</p>
+                      <h5 className = {"card-title"}>{image.title}</h5>
+                      <p className = {"card-text"}>{image.body}</p>
                   </div>
                 </div>
               </div>
@@ -82,8 +82,8 @@ const App = () => {
   //               <div className = {"card mx-auto h-100 w-100"} style = {{width: "18rem"}}>
   //                 <img className = {"card-img-top"} src = {`https://avatars.dicebear.com/api/avataaars/${image.id}.svg`} alt = {"Not found"} />
   //                 <div className = {"card-body"}>
-  //                     <h5 className = {"card-title"}>{image.userId}</h5>
-  //                     <p className = {"card-text"}>{image.id}</p>
+  //                     <h5 className = {"card-title"}>{image.title}</h5>
+  //                     <p className = {"card-text"}>{image.body}</p>
   //                 </div>
   //               </div>
   //             </div>
